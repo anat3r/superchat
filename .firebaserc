@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "chat-app-54a2e"
+  },
+  "targets": {
+    "chat-app-54a2e": {
+      "hosting": {
+        "awesomechat": [
+          "thatawesomechat"
+        ],
+        "basic": [
+          "chat-app-54a2e"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
