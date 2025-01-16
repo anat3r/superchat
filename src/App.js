@@ -91,7 +91,7 @@ function ChatRoom(){
     const {uid,photoURL} = auth.currentUser;
 
     await addDoc(messageRef, {
-      text: formValue,
+      text: "Hello",
       createdAt: serverTimestamp(),
       uid,
       photoURL
